@@ -20,6 +20,23 @@ Repositorio unico para armazenar varios exercicios e projetos feitos em aula.
 - Use nomes curtos e descritivos, por exemplo: `login_basico`, `consumo_api`, `lista_tarefas`.
 - Mantenha cada projeto com seu proprio `README.md` explicando objetivo, execucao e regras.
 
+## Criar novo exercicio Dart (template)
+
+Use o script abaixo para criar um novo projeto Dart console com README e CHANGELOG padrao:
+
+```powershell
+cd scripts
+.\criar_exercicio_dart.ps1 -Nome "nome_do_exercicio" -Descricao "Resumo do exercicio"
+```
+
+Exemplo:
+
+```powershell
+.\criar_exercicio_dart.ps1 -Nome "calculadora_imc" -Descricao "Calculo de IMC com validacoes"
+```
+
+O projeto sera criado em `exercicios/dart/<nome_do_exercicio>`.
+
 ## Exercicios atuais
 
 | Tecnologia | Projeto | Caminho |
