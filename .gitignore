@@ -1,28 +1,21 @@
-# Dart / Flutter
-.dart_tool/
-.packages
-build/
-coverage/
-pubspec_overrides.yaml
+# Global
+.DS_Store
+Thumbs.db
+*.log
 
-# Flutter generated
-.flutter-plugins
-.flutter-plugins-dependencies
-
-# Android signing files
-*.jks
-*.keystore
-android/key.properties
-
-# IDE and OS files
+# Editors
 .idea/
 *.iml
 .vscode/*
 !.vscode/settings.json
 !.vscode/launch.json
 !.vscode/tasks.json
-.DS_Store
-Thumbs.db
 
-# Logs
-*.log
+# Dart / Flutter (any subproject)
+**/.dart_tool/
+**/.packages
+**/build/
+**/coverage/
+**/pubspec_overrides.yaml
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
