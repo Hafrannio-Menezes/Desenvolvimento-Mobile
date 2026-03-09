@@ -87,14 +87,15 @@ TOTAL FINAL:    R$ 21.84
 
 ## Estrutura principal
 
-- `bin/caixa_de_loja.dart`: ponto de entrada e fluxo principal do caixa
-- `lib/caixa_de_loja.dart`: biblioteca base do pacote
-- `test/`: testes automatizados
+- `bin/caixa_de_loja.dart`: ponto de entrada da aplicacao
+- `lib/ui/cli_caixa_de_loja_app.dart`: fluxo de interface no terminal
+- `lib/models/`: entidades e tipos do dominio (`ItemCompra`, `Categoria`)
+- `lib/operacoes/`: uma operacao por arquivo (imposto, desconto, moeda)
+- `lib/services/caixa_service.dart`: agregacao dos itens e calculo dos totais
+- `test/`: testes automatizados das regras de negocio
 
-## Funcoes principais do exercicio
+## Organizacao adotada
 
-- `lerDoubleSeguro()`
-- `lerIntSeguro()`
-- `calcularImposto()`
-- `calcularDesconto()`
-- `imprimirCupom()`
+- separacao por responsabilidade (UI, dominio, operacoes e service)
+- um arquivo por operacao em `lib/operacoes/`
+- docstrings (`///`) nas classes e funcoes publicas

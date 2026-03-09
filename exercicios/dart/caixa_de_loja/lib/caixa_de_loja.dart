@@ -1,3 +1,9 @@
-int calculate() {
-  return 6 * 7;
-}
+export 'models/categoria.dart';
+export 'models/item_compra.dart';
+export 'operacoes/calcular_desconto.dart';
+export 'operacoes/calcular_imposto.dart';
+export 'operacoes/de_centavos.dart';
+export 'operacoes/formatar_moeda.dart';
+export 'operacoes/para_centavos.dart';
+export 'services/caixa_service.dart';
+export 'ui/cli_caixa_de_loja_app.dart';
