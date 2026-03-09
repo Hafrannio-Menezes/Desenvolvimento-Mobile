@@ -14,8 +14,9 @@ Calculadora de terminal com menu organizado, entrada por expressao direta e recu
 
 ## Estrutura
 
-- `bin/calculadora.dart`: fluxo de menu e interacao de terminal
+- `bin/calculadora.dart`: ponto de entrada da aplicacao
 - `lib/operacoes/`: funcoes matematicas separadas por arquivo
+- `lib/ui/cli_calculadora_app.dart`: camada de interface CLI (menus e fluxo)
 - `lib/services/calculadora_service.dart`: estado da aplicacao (`ANS`, memoria, historico, config)
 - `lib/services/expression_parser.dart`: parser para expressoes com precedencia
 - `test/calculadora_test.dart`: testes de operacoes, parser e service

@@ -1,6 +1,11 @@
 import 'package:calculadora/operacoes/potencia.dart';
 
+/// Parser recursivo para expressoes matematicas da CLI.
+///
+/// Suporta `+`, `-`, `*`, `/`, `^`, parenteses e os identificadores `ans` e
+/// `mem`.
 class ExpressionParser {
+  /// Cria um parser para [_input] com contexto de [ans] e [memory].
   ExpressionParser(this._input, {required this.ans, required this.memory});
 
   final String _input;
@@ -10,6 +15,7 @@ class ExpressionParser {
 
   bool get _isAtEnd => _index >= _input.length;
 
+  /// Executa o parsing da expressao e retorna o valor numerico final.
   double parse() {
     final value = _parseExpression();
     _skipSpaces();
