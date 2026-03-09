@@ -9,6 +9,7 @@ Repositorio unico para armazenar varios exercicios e projetos feitos em aula.
 |- exercicios/
 |  |- dart/
 |  |  |- caixa_de_loja/
+|  |  |- calculadora/
 |  |- flutter/
 |- aulas/
 |- anotacoes/
@@ -42,6 +43,7 @@ O projeto sera criado em `exercicios/dart/<nome_do_exercicio>`.
 | Tecnologia | Projeto | Caminho |
 | --- | --- | --- |
 | Dart | Caixa de Loja | `exercicios/dart/caixa_de_loja` |
+| Dart | Calculadora CLI | `exercicios/dart/calculadora` |
 
 ## Padrao sugerido para novos exercicios
 
