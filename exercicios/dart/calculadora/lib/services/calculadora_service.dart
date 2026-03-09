@@ -1,8 +1,8 @@
 import 'package:calculadora/services/expression_parser.dart';
 
-/// Service que concentra estado e regras da calculadora.
+/// service que concentra estado e regras da calculadora.
 ///
-/// Mantem `ANS`, memoria, historico e configuracoes de formatacao.
+/// mantem `ANS`, memoria, historico e configuracoes de formatacao.
 class CalculadoraService {
   /// Cria o service com configuracoes iniciais de execucao.
   CalculadoraService({

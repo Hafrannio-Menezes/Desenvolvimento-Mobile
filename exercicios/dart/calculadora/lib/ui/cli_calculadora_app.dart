@@ -4,9 +4,9 @@ import 'package:calculadora/calculadora.dart';
 
 class _InputClosed implements Exception {}
 
-/// Aplicacao CLI da calculadora.
+/// aplicacao CLI da calculadora.
 ///
-/// Centraliza o fluxo de menus, leitura de entrada e impressao de resultados.
+/// centraliza o fluxo de menus, leitura de entrada e impressao de resultados.
 class CliCalculadoraApp {
   /// Cria a aplicacao com um [CalculadoraService] opcional.
   CliCalculadoraApp({CalculadoraService? service})
